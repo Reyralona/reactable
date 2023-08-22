@@ -1,0 +1,45 @@
+@import url('Element.css');
+
+.periodic_table{
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  user-select: none;
+}
+
+.top{
+  display: flex;
+  align-items: end;
+  gap: 120px;
+}
+
+.mid{
+  display: flex;
+  gap: 5px;
+}
+
+.left{
+  display: flex;
+  flex-direction: row;
+  align-items: end;
+  gap: 5px;
+}
+
+.col{
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  gap: 5px;
+}
+
+.row{
+  display: flex;
+  gap: 5px;
+}
+
+.bottom{
+  display: flex;
+  flex-direction: column;
+  align-self: end;
+  gap: 5px;
+}
